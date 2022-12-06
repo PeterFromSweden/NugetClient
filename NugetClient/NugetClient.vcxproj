@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\NugetSrc.0.1.2\build\NugetSrc.props" Condition="Exists('..\packages\NugetSrc.0.1.2\build\NugetSrc.props')" />
+  <Import Project="..\packages\NugetSrc.0.1.3\build\NugetSrc.props" Condition="Exists('..\packages\NugetSrc.0.1.3\build\NugetSrc.props')" />
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -152,6 +152,6 @@
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\NugetSrc.0.1.2\build\NugetSrc.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NugetSrc.0.1.2\build\NugetSrc.props'))" />
+    <Error Condition="!Exists('..\packages\NugetSrc.0.1.3\build\NugetSrc.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NugetSrc.0.1.3\build\NugetSrc.props'))" />
   </Target>
 </Project>
