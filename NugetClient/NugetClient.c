@@ -3,5 +3,6 @@
 
 int main()
 {
-    puts( fnNugetSrc() );
+  char * pStr = fnNugetSrc();
+  puts( pStr );
 }
